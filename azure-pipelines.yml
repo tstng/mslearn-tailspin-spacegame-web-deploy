@@ -72,7 +72,7 @@ stages:
   jobs:
   - deployment: Deploy
     pool:
-      vmImage: 'selfAgentes'
+      name: 'selfAgentes'
     environment: dev
     variables:
     - group: Release
