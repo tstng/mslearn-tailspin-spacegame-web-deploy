@@ -2,6 +2,7 @@ trigger:
 - '*'
 
 pool:
+  name: selfAgentes
   vmImage: 'ubuntu-16.04'
   demands:
     - npm
