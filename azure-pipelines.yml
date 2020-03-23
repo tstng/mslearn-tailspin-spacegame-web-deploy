@@ -12,7 +12,7 @@ stages:
   - job: 'Build'
     displayName: 'Build job'
     pool:
-      name: 'selfAgente'
+      name: 'selfAgentes'
       demands:
         - npm
 
